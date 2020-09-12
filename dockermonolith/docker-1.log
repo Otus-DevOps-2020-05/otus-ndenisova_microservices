@@ -1,0 +1,9 @@
+REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
+ndenisova/ubuntu-tmp-file   latest              f9392a83f393        11 seconds ago      64.2MB
+ubuntu                      18.04               6526a1858e5d        10 days ago         64.2MB
+hello-world                 latest              bf756fb1ae65        8 months ago        13.3kB
+
+
+В inspect выводе контейнера идет ссылка на img из которого он сделан,
+добавлены секции HostConfig, NetworkSettings, State - специфичные для конкретного контейнера.
+Можно предположить, что контейнер - это как-ьы экземпляр класса 'образ'
