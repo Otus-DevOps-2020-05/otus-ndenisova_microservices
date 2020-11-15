@@ -27,3 +27,11 @@ docker-compose -p foo up
 
 также можно оперировать с
 container_name: my-name-container
+
+
+
+
+GitLab CI/CD
+===============
+Создана ВМ с GitLab в docker на ней
+Проделана практическая работа по изчению возможностей GitLab Ci/CD
