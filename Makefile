@@ -7,7 +7,7 @@ build_ui:
 	cd src/ui; bash docker_build.sh; cd -
 build_comment:
 	cd src/comment; bash docker_build.sh; cd -
-build_post-py:
+build_post:
 	cd src/post-py; bash docker_build.sh; cd -
 
 build_all: build_prom build_ui build_comment build_post-py
