@@ -35,3 +35,15 @@ GitLab CI/CD
 ===============
 Создана ВМ с GitLab в docker на ней
 Проделана практическая работа по изчению возможностей GitLab Ci/CD
+
+
+Monitoring1
+==============
+Создана ВМ для развертывания docker образов с приложениями и prometheus
+Выполнены ознакомительные действия с web интерфейсом prometheus
+Добавлен node-exporter для например мониторинга за CPU.
+
+Все docker образы собраны и запушены в GitHub
+hub.docker.com/repository/docker/9057210458/{prometheus,ui,comment,post}
+
+* Добавлен Makefile с таргетами побилдить и запушить образы.
